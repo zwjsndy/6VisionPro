@@ -185,6 +185,7 @@ python filter_aliased.py --aliased_file_path aliased_res --active_file_path act
 | `--active_final_file_path`  | _(required)_ | Output final active file paths (e.g. 'active\_final', this will produce `active_final_{i}.txt`).                     |
 | `--aliased_final_file_path` | _(required)_ | Output final aliased file paths (e.g. 'aliased\_final', this will produce `aliased_final_{i}.txt`).                  |
 | `--k`                       | 6            | Number of clusters.                                                                                                  |
+
 At the end of this step, all necessary files for the RL retraining process are obtained: the label file (step 1), the original to-be-tuned model files (step 2), the output logs when generating a round of addresses (step 3), the final aliased address files (step 5) and the final active address files (step 5).
 
 **6. Fine-Tuning based on Reinforcement Learning**
