@@ -227,4 +227,3 @@ python combine_results.py previous_generated_output_files(separate by space)
 | `--input_dir`   | `./`           | Directory containing to-be-combined files.                                                                                |
 | `--result_name` | `res`          | Results filename: e.g. `res` for first-round, this will combine `k` results that are named as `res_{i}_with_1_6_128.txt`. |
 | `--output`      | auto-generated | Output file path. Auto-generated output for `res` results filename is `combined_res_k{K_VALUE}_s{STACK_SIZE}.txt`         |
-# 6VisionPro
