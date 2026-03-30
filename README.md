@@ -1,6 +1,6 @@
 # 6Vision
 
-**An IPv6 Target Generation Method for Few-seed BGP prefixes**
+**An IPv6 Target Generation Method for Few-seed BGP Prefixes**
 
 6Vision is an IPv6 active address discovery method for few-seed BGP prefixes that learns fine-grained structural patterns from image-based seed address representations and adaptively steers probing toward denser active regions with online reinforcement learning feedback.
 
